@@ -1,0 +1,9 @@
+#!/usr/bin/env python3
+
+import robproj2
+
+if __name__ == "__main__":
+    cos_period = 2.0
+    run_period = 0.005
+
+    robproj2.run_cos_signal(cos_period, run_period)
